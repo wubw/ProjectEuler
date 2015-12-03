@@ -27,3 +27,4 @@ C:\Users\wubw\Documents\GitHub\ProjectEuler\SolverTest\bin\Debug\Solver.xml
 C:\Users\wubw\Documents\GitHub\ProjectEuler\SolverTest\bin\Debug\FSharp.Core.xml
 C:\Users\wubw\Documents\GitHub\ProjectEuler\SolverTest\bin\Debug\nunit.framework.xml
 C:\Users\wubw\Documents\GitHub\ProjectEuler\SolverTest\bin\Debug\Problem18_2.txt
+C:\Users\wubw\Documents\GitHub\ProjectEuler\SolverTest\bin\Debug\Problem22_names.txt

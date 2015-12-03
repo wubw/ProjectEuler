@@ -50,10 +50,11 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <Content Include="packages.config" />
-    <Compile Include="Problem21.Test.fs" />
+    <Compile Include="Problem22.Test.fs" />
     <Compile Include="Problem17.Test.fs" />
     <Compile Include="Problem18.Test.fs" />
     <Compile Include="Problem19.Test.fs" />
+    <Compile Include="Problem21.Test.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />

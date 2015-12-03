@@ -17,3 +17,4 @@ C:\Users\wubw\Documents\GitHub\ProjectEuler\Solver\bin\Debug\FSharp.Core.xml
 C:\Users\wubw\Documents\GitHub\ProjectEuler\Solver\obj\Debug\Solver.dll
 C:\Users\wubw\Documents\GitHub\ProjectEuler\Solver\obj\Debug\Solver.pdb
 C:\Users\wubw\Documents\GitHub\ProjectEuler\Solver\bin\Debug\Problem18_2.txt
+C:\Users\wubw\Documents\GitHub\ProjectEuler\Solver\bin\Debug\Problem22_names.txt
