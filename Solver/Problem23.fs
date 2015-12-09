@@ -4,12 +4,6 @@ open System
 open System.Collections.Generic
 open ProjectEuler.Solver
 
-let isPerfectNum(num:int) =
-    Problem21.getSumOfProperDivisors(num) = num
-
-let isDeficientNum(num:int) =
-    Problem21.getSumOfProperDivisors(num) < num
-
 let isAbundantNum(num:int) =
     Problem21.getSumOfProperDivisors(num) > num
 
@@ -29,9 +23,5 @@ let computeNums() =
     ret
 
 let getFinalResults() = 
-    let mutable ret = 0
     let nums = computeNums()
-    for i in [1..28123] do
-        if not (nums.Contains(i)) then
-            ret <- ret+i
-    ret
+    [1..28123] |> Seq.filter (fun x-> not(nums.Contains(x))) |> Seq.sum

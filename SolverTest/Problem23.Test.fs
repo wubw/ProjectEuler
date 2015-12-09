@@ -6,8 +6,7 @@ open System
 type Problem23Tests() =
 
     [<Test>]
-    member this.isPerfectNumTest() =
-        Assert.IsTrue(Problem23.isPerfectNum(28))
+    member this.isAbundantNumTest() =
         Assert.IsTrue(Problem23.isAbundantNum(12))
 
     [<Test>]
@@ -16,12 +15,12 @@ type Problem23Tests() =
         Assert.AreEqual(allAbundantNums.Head, 12)
         Assert.AreEqual(Seq.length(allAbundantNums), 6965)
 
-    [<Test>]
+    //[<Test>]
     member this.computeNumsTest() = 
         let nums = Problem23.computeNums()
         Assert.AreEqual(24, Seq.min(nums))
 
-    [<Test>]
+    //[<Test>]
     member this.getFinalResultsTest() = 
         let result = Problem23.getFinalResults()
-        Assert.AreEqual(0, result)
+        Assert.AreEqual(4179871, result)
