@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Solver", "Solver\Solver.fsp
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SolverTest", "SolverTest\SolverTest.fsproj", "{4284F3A5-C5A9-42A8-ABB7-AA043292C4F0}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonSolver", "PythonSolver\PythonSolver.pyproj", "{71527127-EB0D-4B70-94CE-CADD5F5C1D5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{4284F3A5-C5A9-42A8-ABB7-AA043292C4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4284F3A5-C5A9-42A8-ABB7-AA043292C4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4284F3A5-C5A9-42A8-ABB7-AA043292C4F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71527127-EB0D-4B70-94CE-CADD5F5C1D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71527127-EB0D-4B70-94CE-CADD5F5C1D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
