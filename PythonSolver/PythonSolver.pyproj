@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>71527127-eb0d-4b70-94ce-cadd5f5c1d5e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Problem26.py</StartupFile>
+    <StartupFile>Problem28.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,11 +23,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="NumUtil.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Problem24.py" />
     <Compile Include="Problem25.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Problem26.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem27.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem28.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
