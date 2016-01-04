@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>71527127-eb0d-4b70-94ce-cadd5f5c1d5e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Problem30.py</StartupFile>
+    <StartupFile>Problem32.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -43,6 +43,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Problem30.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem31.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem32.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
